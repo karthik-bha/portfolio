@@ -26,7 +26,7 @@ const Projects = () => {
                 </div>
                 <div className='flex  items-center justify-center'>
                     <button className="more-primary-color w-[250px] h-auto text-black rounded-lg py-4 px-6 transform ease-in-out duration-150 hover:scale-105 hover:[#3474eb] hover:text-white focus:outline-none focus:ring-2 focus:ring-[#3474eb]">
-                        More Projects &rarr;
+                       <a href="https://github.com/karthik-bha?tab=repositories"> More Projects &rarr;</a>
                     </button>
 
                 </div>
