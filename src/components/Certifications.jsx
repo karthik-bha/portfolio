@@ -22,8 +22,8 @@ const Certifications = () => {
     return (
         <div className='bg-[#1a1e26] height-auto mx-auto justify-center items-center text-white ' id='certifications'>
         <div className='max-w-[1200px]  mx-auto'>
-            <div>
-                <h3 className='text-4xl  text-center sm:text-center lg:text-left'> Certifications </h3>
+            <div className='flex py-10'>
+                <h3 className='text-4xl  text-center mx-auto sm:text-center lg:text-left'> Certifications </h3>
             </div>
             <div className='flex flex-wrap max-w-[1200px]'>
                 <CertiCard items={certiList}/>

@@ -39,9 +39,9 @@ const Skills = () => {
     ]
   return (
     <div className='bg-[#1a1e26] height-auto mx-auto justify-center items-center text-white ' id='skills'>
-    <div className='max-w-[1200px]  mx-auto py-5'>
-        <div>
-            <h3 className='text-4xl text-center sm:text-center lg:text-left'>Skills</h3>
+    <div className='max-w-[1200px]  mx-auto'>
+        <div className='flex py-10'>
+            <h3 className=' text-4xl text-center mx-auto sm:text-center lg:text-left py-4 '>Skills</h3>
         </div>
         <div className=' flex flex-wrap mx-auto justify-center '>
             <SkillCard items={skillSet}/>

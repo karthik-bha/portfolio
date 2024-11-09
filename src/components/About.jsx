@@ -1,15 +1,15 @@
 import React from 'react'
 import vit from '../assets/vit.png'
 import vitap from '../assets/vitap.png'
-
+//
 const About = () => {
   return (
-    <div className='bg-[#1a1e26] height-auto mx-auto justify-center items-center text-white flex flex-col'id='about'>
-    
-      <div className=' text-white max-w-[1200px]  py-3 items-center justify-center flex flex-col'>
-        <h3 className='text-5xl text-white'>About<span className='primary-text text-5xl' >  Me </span></h3>
+    <div className=' bg-[#1a1e26] height-auto mx-auto justify-center items-center text-white flex flex-col ' id='about'>
+
+      <div className=' text-white max-w-[1200px]  py-5 items-center justify-center '>
+        <h3 className='text-5xl text-white mx-auto text-center sm:text-center lg:text-left'>About<span className='primary-text text-5xl' >  Me </span></h3>
         <div className='py-3'>
-          <p className="text-gray-300 text-1xl font-medium text-center lg:text-left">
+          <p className="text-gray-400 text-1xl font-normal text-left sm:text-1xl font lg:text-left text-2xl py-4">
 
             I enjoy exploring different areas within Computer Science. With a solid foundation in multiple programming languages,
             <b> Data Structures</b>, and <b> Algorithms</b>, I`ve worked on personal projects in <b>Data Analytics </b>
@@ -17,13 +17,16 @@ const About = () => {
             work together.
           </p>
         </div>
-      </div>
-      <div className='  max-w-[1200px] sm:flex flex-col text-center lg:flex items-center'>
-        <h3 className='primary-text text-5xl mx-6 px-3'>Edu<span className='text-5xl text-white'>cation </span></h3>
-
-        {/* end of text  */}
-        {/* card start */}
-        <div className="flex flex-col lg:flex-row justify-center items-center lg:space-x-8 px-5 mt-16">
+   
+     
+        <div >
+          <h3 className="primary-text text-5xl text-center sm:text-center lg:text-left py-4">
+            Edu<span className="text-5xl text-white">cation</span>
+          </h3>
+     
+          </div>
+        {/* Card Section */}
+        <div className="flex flex-col lg:flex-row justify-center items-center lg:space-x-8 px-5 w-full py-5 lg:justify-start">
           {/* First card - Education */}
           <div className="w-full sm:w-[20rem] md:w-[22rem] h-[22rem] bg-white shadow-xl rounded-lg text-gray-900 mb-8 lg:mb-0">
             <div className="rounded-t-lg h-32 overflow-hidden">
@@ -39,18 +42,10 @@ const About = () => {
               <p className="font-normal text-sm text-gray-700">
                 <i>B.Tech Computer Science and Engineering with specialization in Data Analytics</i>
               </p>
-              {/* <p className="font-normal mt-2 text-gray-900 py-2">CGPA: 8.52</p> */}
             </div>
           </div>
-
-         
-          </div>
         </div>
-
-
-
-
-
+      </div>
 
     </div>
   )

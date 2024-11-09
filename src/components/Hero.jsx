@@ -7,8 +7,7 @@ const Hero = () => {
     return (
         <div id='home'>
 
-            <div className=' max-w-[1200px] h-auto mx-auto my-2 flex flex-col-reverse sm:flex-row justify-center 
-            items-center text-center py-10 lg:text-left '>
+            <div className=' max-w-[1200px] h-auto mx-auto my-2 flex flex-col-reverse sm:flex-row justify-center items-center text-center py-10 lg:text-left '>
                 <div className=' flex-col my-auto mx-auto'>
                     <p className='md:text-5xl sm:text-4xl text-xl font-bold text-gray-300'> Hello, I am Karthik. I like working on</p>
                     <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-6'>
@@ -16,7 +15,7 @@ const Hero = () => {
                             sequence={[
                                 "Data Analytics",
                                 1000,
-                                "Full Stack Development",
+                                "Full Stack",
                                 1000,
                             ]}
                             wrapper='span'
@@ -26,7 +25,7 @@ const Hero = () => {
                     </h1>
                     <div className='flex justify-center items-center'>
                         <p className='md:text-5xl sm:text-4xl text-xl font-bold text-gray-500'>Successfully 
-                            completed more than 15 projects across these domains</p>
+                            completed more than 20 Courses and 5 projects across these domains</p>
                     </div>
                     <div className="text-5xl gap-16 my-7 text-purple-600 justify-center flex sm:justify-center lg:justify-start">
                         <a

@@ -7,16 +7,21 @@ import Skills from './components/Skills.jsx'
 import Certifications from './components/Certifications.jsx'
 
 function App() {
-  
+
 
   return (
     <>
-      <NavBar/>
-      <Hero/>
-      <About/>
-      <Projects/>
-      <Skills/>
-      <Certifications/>
+      <div className="w-full overflow-hidden bg-yellow-400 sticky top-0 z-10">
+        <h1 className="inline-block min-w-full whitespace-nowrap bg-yellow-400 animate-scroll-left">
+          Beta Version! Website under Development
+        </h1>
+      </div>
+      <NavBar />
+      <Hero />
+      <About />
+      <Projects />
+      <Skills />
+      <Certifications />
     </>
   )
 }

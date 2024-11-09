@@ -21,7 +21,7 @@ const CertiCard = ({ items }) => {
             {/* Certificate Cards Grid */}
             <div className="mx-auto px-4 grid grid-cols-2 items-center text-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 max-w-[1200px] justify-center">
                 {items.map((item, index) => (
-                    <div key={index} className="flex flex-col items-center">
+                    <div key={index} className="flex flex-col items-center hover:text-white">
                         <img
                             src={item.img}
                             alt={item.title}
@@ -29,7 +29,7 @@ const CertiCard = ({ items }) => {
                             onClick={() => openModal(item.img)} // Trigger modal open on click
                         />
                         <h2 className="text-center">
-                            <a href={item.link} target="_blank" rel="noopener noreferrer">
+                            <a href={item.link} target="_blank" rel="noopener noreferrer" className='text-[#95a5a6]'>
                                 {item.title}
                             </a>
                         </h2>
