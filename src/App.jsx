@@ -16,7 +16,7 @@ function App() {
           Beta Version! Website under Development
         </h1>
       </div>
-      <NavBar />
+      <NavBar className="sticky top-0 w-full"/>
       <Hero />
       <About />
       <Projects />

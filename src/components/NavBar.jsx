@@ -26,7 +26,7 @@ const NavBar = () => {
     }, []); // Empty dependency array ensures the effect runs only once on mount
 
     return (
-        <div className='text-gray-500 flex justify-between items-center max-w-[1240px] mx-auto h-24 px-4 text-l'>
+        <div className='text-gray-500 flex justify-between items-center max-w-[1240px] mx-auto h-24 px-4 text-l sticky top-6 z-10 bg-[#20242d] rounded-xl opacity-90'>
             <h1 className='text-3xl font-bold primary-color ml-4'>Karthik S Bhat</h1>
             <ul className='hidden md:flex'>
                 <li className='p-5 hover:text-white'>

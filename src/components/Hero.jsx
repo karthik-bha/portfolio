@@ -9,7 +9,7 @@ const Hero = () => {
 
             <div className=' max-w-[1200px] h-auto mx-auto my-2 flex flex-col-reverse sm:flex-row justify-center items-center text-center py-10 lg:text-left '>
                 <div className=' flex-col my-auto mx-auto'>
-                    <p className='md:text-5xl sm:text-4xl text-xl font-bold text-gray-300'> Hello, I am Karthik. I like working on</p>
+                    <p className='md:text-5xl sm:text-4xl text-xl font-bold text-gray-300 sm:py-4'> Hello, I am Karthik. I like working on</p>
                     <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-6'>
                         <TypeAnimation
                             sequence={[
@@ -56,7 +56,7 @@ const Hero = () => {
                         <div className="absolute transition-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#44BCFF] 
                         via-[#FF44EC] to-[#FF675E] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 
                         group-hover:duration-200 animate-tilt"></div>
-                        <a href="https://drive.google.com/file/d/18NBXI4Ip9CmskK98AGpVkptSMg5f3y0Z/view" title="Download CV" role="button" className="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 w-[270px] h-auto relative px-4 py-2 text-white bg-blue-500 rounded-lg hover:bg-blue-600 transition duration-300">
+                        <a href="https://drive.google.com/file/d/1DCCeUaJFuhpzPTliAk69ov9zfXNphHn2/view?usp=sharing" title="Download CV" role="button" className="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 w-[270px] h-auto relative px-4 py-2 text-white bg-blue-500 rounded-lg hover:bg-blue-600 transition duration-300">
                             Checkout my Résumé here!
                         </a>
                     </div>
