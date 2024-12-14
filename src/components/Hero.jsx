@@ -25,7 +25,7 @@ const Hero = () => {
                     </h1>
                     <div className='flex justify-center items-center'>
                         <p className='md:text-5xl sm:text-4xl text-xl font-bold text-gray-500'>Successfully 
-                            completed more than 20 Courses and 5 projects across these domains</p>
+                            completed more than 20 Courses and 10 projects across these domains</p>
                     </div>
                     <div className="text-5xl gap-16 my-7 text-purple-600 justify-center flex sm:justify-center lg:justify-start">
                         <a

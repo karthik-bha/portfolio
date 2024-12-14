@@ -1,20 +1,27 @@
 import React from 'react'
 import SkillCard from './SkillCard'
-import java from '../assets/logos/java.png'
-import python from '../assets/logos/python.png'
-import Cpp from '../assets/logos/Cpp.png'
-import JS from '../assets/logos/js.png'
-import R from '../assets/logos/R.jpg'
-import SQL from '../assets/logos/SQL.png'
-import DSA from '../assets/logos/DSA.png'
-import FLASK from '../assets/logos/FLASK.png'
-import HTML from '../assets/logos/HTML.png'
-import CSS from '../assets/logos/CSS.png'
-import REACT from '../assets/logos/REACT.png'
-import EX from '../assets/logos/EX.png'
-import MONGO from '../assets/logos/MONGO.png'
-import DA from '../assets/logos/DA.jpg'
-import NODE from '../assets/logos/NODE.png'
+import java from '../assets/logos/java.svg'
+import python from '../assets/logos/python.svg'
+import Cpp from '../assets/logos/cpp.svg'
+import JS from '../assets/logos/js.svg'
+import R from '../assets/logos/r.svg'
+import SQL from '../assets/logos/sql.svg'
+import DSA from '../assets/logos/dsa.svg'
+import FLASK from '../assets/logos/flask.svg'
+import HTML from '../assets/logos/html.svg'
+import CSS from '../assets/logos/css.svg'
+import REACT from '../assets/logos/react.svg'
+import EX from '../assets/logos/express.svg'
+import MONGO from '../assets/logos/mongo.svg'
+import DA from '../assets/logos/DA.svg'
+import NODE from '../assets/logos/node.svg'
+import GITHUB from '../assets/logos/github.svg'
+import TW from '../assets/logos/tailwind.svg'
+import GC from '../assets/logos/GC.svg'
+import NP from '../assets/logos/numpy.svg'
+import PD from '../assets/logos/pandas.svg'
+
+
 
 
 const Skills = () => {
@@ -34,6 +41,12 @@ const Skills = () => {
         {title:"Express.js" , pic: EX},
         {title:"MongoDB" , pic: MONGO},
         {title:"Data Analytics" , pic: DA},
+        {title:"GitHub & Git" , pic: GITHUB},
+        {title:"Tailwind CSS" , pic: TW},
+        {title:"Google Cloud" , pic: GC},
+        {title:"NumPy" , pic: NP},
+        {title:"Pandas" , pic: PD},
+   
        
 
     ]

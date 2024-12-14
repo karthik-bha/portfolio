@@ -6,7 +6,7 @@ const Projects = () => {
     const cardItems = [
         { title: 'College Management System', link: 'https://github.com/karthik-bha/CMS', description: 'A Functional College Management system that can perform various tasks like managing student records, teachers records, etc.', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYN2hsVG_rm1D449zxjEA-d9_HUJmH8PFWWg&s' },
         { title: 'Disease Predictor', link: 'https://github.com/karthik-bha/Disease-Predictor', description: 'A functional disease predictor website that predicts diseases based on user inputs (upto 8) with 97% accuracy using KNN. ', image: 'https://www.yourgenome.org/wp-content/uploads/2023/11/1600-shutterstock_2112088307.jpg' },
-        { title: 'IBM Data Analytics Capstone Project', link: 'https://github.com/karthik-bha/IBM_data_analytics', description: 'In this project, we manipulate and perform analytical tasks using various tools on given data', image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD38-INygBA_TQ45_lfjnq_oYIGRYbRqJAPw&s" },
+        { title: 'PassProtect', link: 'https://github.com/karthik-bha/PasswordManagerExpress', description: 'In this Project, We created a Full-Stack Password Manager that can add, edit, delete and copy passwords from local MongoDB collections. Built using MERN stack and Tailwind CSS', image: DA2 },
         { title: 'House Price Prediction', link: 'https://github.com/karthik-bha/Bharatintern_ML/blob/main/Blr_House_price_prediction.ipynb', description: 'In this Project, We predicted house prices of various types using Linear Regression with about 80% accuracy', image: 'https://miro.medium.com/v2/resize:fit:1024/1*smf9XOCYX-7NuQSkE4m84g.jpeg' }
     ];
 

@@ -5,6 +5,8 @@ import About from './components/About.jsx'
 import Projects from './components/Projects.jsx'
 import Skills from './components/Skills.jsx'
 import Certifications from './components/Certifications.jsx'
+import Footer from './components/Footer.jsx'
+
 
 function App() {
 
@@ -16,7 +18,7 @@ function App() {
           Beta Version! Website under Development
         </h1>
       </div>
-      <NavBar className="sticky top-0 w-full"/>
+      <NavBar />
       <Hero />
       <About />
       <Projects />
