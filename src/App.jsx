@@ -24,6 +24,11 @@ function App() {
       <Projects />
       <Skills />
       <Certifications />
+      <p className='text-center text-white font-semibold p-4 hover:text-blue-600 cursor-pointer'><a href="https://github.com/karthik-bha/portfolio/tree/main " target="_blank">Portfolio source code here</a> (Leave a star if you like it!)</p>
+      <div className='sticky bottom-0 z-10 w-full '>
+        <Footer />
+      </div>
+     
     </>
   )
 }
