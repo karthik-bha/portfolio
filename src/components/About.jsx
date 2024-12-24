@@ -4,12 +4,12 @@ import vitap from '../assets/vitap.png'
 //
 const About = () => {
   return (
-    <div className=' bg-[#1a1e26] height-auto mx-auto justify-center items-center text-white flex flex-col ' id='about'>
+    <div className=' bg-[#1a1e26] height-screen mx-auto justify-center items-center text-white flex flex-col ' id='about'>
 
       <div className=' text-white max-w-[1200px]  py-5 items-center justify-center '>
-        <h3 className='text-5xl text-white mx-auto text-center sm:text-center lg:text-left'>About<span className='primary-text text-5xl' >  Me </span></h3>
+        <h3 className='text-3xl md:text-5xl text-white mx-auto text-center sm:text-center lg:text-left'>About<span className='primary-text text-[32px] md:text-5xl' >  Me </span></h3>
         <div className='py-3'>
-          <p className="text-gray-400 text-1xl font-normal text-center mx-auto sm:text-1xl font lg:text-left text-2xl py-4">
+          <p className="text-gray-400 text-[16px] md:text-[22px] font-normal mx-2 font lg:text-left text-2xl py-4">
 
             I enjoy exploring different areas within Computer Science. With a solid foundation in multiple programming languages,
             <b> Data Structures</b>, and <b> Algorithms</b>, I`ve worked on personal projects in <b>Data Analytics </b>
@@ -20,8 +20,8 @@ const About = () => {
    
      
         <div >
-          <h3 className="primary-text text-5xl text-center sm:text-center lg:text-left py-4">
-            Edu<span className="text-5xl text-white">cation</span>
+          <h3 className="primary-text text-3xl md:text-5xl text-center sm:text-center lg:text-left py-4">
+            Edu<span className="text-3xl md:text-5xl text-white">cation</span>
           </h3>
      
           </div>

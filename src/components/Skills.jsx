@@ -20,7 +20,7 @@ import TW from '../assets/logos/tailwind.svg'
 import GC from '../assets/logos/GC.svg'
 import NP from '../assets/logos/numpy.svg'
 import PD from '../assets/logos/pandas.svg'
-
+import Next from '../assets/logos/next.svg'
 
 
 
@@ -37,6 +37,7 @@ const Skills = () => {
         {title:"HTML" , pic: HTML},
         {title:"CSS" , pic: CSS},
         {title:"React.js" , pic: REACT},
+        {title:"Next.js" , pic: Next},
         {title:"Node.js" , pic: NODE},
         {title:"Express.js" , pic: EX},
         {title:"MongoDB" , pic: MONGO},
@@ -46,9 +47,7 @@ const Skills = () => {
         {title:"Google Cloud" , pic: GC},
         {title:"NumPy" , pic: NP},
         {title:"Pandas" , pic: PD},
-   
-       
-
+        
     ]
   return (
     <div className='bg-[#1a1e26] height-auto mx-auto justify-center items-center text-white ' id='skills'>

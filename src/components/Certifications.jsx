@@ -20,7 +20,7 @@ const Certifications = () => {
         {title:"SmartBridge AI & ML ", link:"https://www.crhttps://drive.google.com/file/d/1qunn2YAJCD9GQdDWcudWKp1ZEDmrC4yF/view", img:SMBAIML}
     ];
     return (
-        <div className='bg-[#1a1e26] height-auto mx-auto justify-center items-center text-white ' id='certifications'>
+        <div className='bg-[#1a1e26] height-auto mx-auto justify-center items-center text-white py-4 pb-8 ' id='certifications'>
         <div className='max-w-[1200px]  mx-auto'>
             <div className='flex py-10'>
                 <h3 className='text-4xl  text-center mx-auto sm:text-center lg:text-left'> Certifications </h3>

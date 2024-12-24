@@ -5,11 +5,11 @@ import { TypeAnimation } from 'react-type-animation'
 
 const Hero = () => {
     return (
-        <div id='home'>
+        <div id='home'className=''>
 
-            <div className=' max-w-[1200px] h-auto mx-auto my-2 flex flex-col-reverse sm:flex-row justify-center items-center text-center py-10 lg:text-left '>
+            <div className=' max-w-[1200px] h-auto mx-4 my-2 flex flex-col-reverse sm:flex-row justify-center items-center text-center py-10 md:text-left lg:mx-auto'>
                 <div className=' flex-col my-auto mx-auto'>
-                    <p className='md:text-5xl sm:text-4xl text-xl font-bold text-gray-300 sm:py-4'> Hello, I am Karthik. I like working on</p>
+                    <p className='md:text-4xl text-xl font-bold text-gray-300 sm:py-4'> Hello, I am Karthik. I like working on</p>
                     <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-6'>
                         <TypeAnimation
                             sequence={[
@@ -27,7 +27,7 @@ const Hero = () => {
                         <p className='md:text-5xl sm:text-4xl text-xl font-bold text-gray-500'>Successfully 
                             completed more than 20 Courses and 10 projects across these domains</p>
                     </div>
-                    <div className="text-5xl gap-16 my-7 text-purple-600 justify-center flex sm:justify-center lg:justify-start">
+                    <div className="text-5xl gap-16 my-7 text-purple-600 justify-center flex sm:justify-center md:justify-start">
                         <a
                             href="https://github.com/karthik-bha?tab=repositories"
                             target="_blank"
