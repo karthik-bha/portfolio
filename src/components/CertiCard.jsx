@@ -19,13 +19,13 @@ const CertiCard = ({ items }) => {
     return (
         <div className="">
             {/* Certificate Cards Grid */}
-            <div className="mx-2 grid grid-cols-2  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-10 max-w-[1200px] ">
+            <div className=" justify-center grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-10 max-w-[1200px] ">
                 {items.map((item, index) => (
                     <div key={index} className="flex flex-col items-center hover:text-white">
                         <img
                             src={item.img}
-                            alt={item.title}
-                            className="rounded-lg h-[200px] w-full object-cover my-2 transform transition-all duration-300 ease-in-out hover:scale-105 cursor-pointer"
+                            alt={item.title}                        
+                            className="rounded-lg max-h-[200px] w-[200px] md:w-full object-cover my-2 transform transition-all duration-300 ease-in-out hover:scale-105 cursor-pointer"
                             onClick={() => openModal(item.img)} // Trigger modal open on click
                         />
                         <h2 className="text-center">

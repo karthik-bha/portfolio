@@ -12,24 +12,30 @@ function App() {
 
 
   return (
-    <>
-      <div className="w-full overflow-hidden bg-yellow-400 sticky top-0 z-10">
+    <div className='font-sans'>
+      {/* <div className="w-full overflow-hidden bg-yellow-400 sticky top-0 z-10">
         <h1 className="inline-block min-w-full whitespace-nowrap bg-yellow-400 animate-scroll-left">
           Beta Version! Website under Development
         </h1>
-      </div>
+      </div> */}
       <NavBar />
+      
       <Hero />
+      <hr className='h-[1px] bg-slate-800 border-none'/>
       <About />
+      <hr className='h-[1px] bg-slate-800 border-none'/>
       <Projects />
+      <hr className='h-[1px] bg-slate-800 border-none'/>
       <Skills />
+      <hr className='h-[1px] bg-slate-800 border-none'/>
       <Certifications />
-      <p className='text-center text-white font-semibold p-4 hover:text-blue-600 cursor-pointer'><a href="https://github.com/karthik-bha/portfolio/tree/main " target="_blank">Portfolio source code here</a> (Leave a star if you like it!)</p>
-      <div className='sticky bottom-0 z-10 w-full '>
+      <hr className='h-[1px] bg-slate-800 border-none'/>
+      <a href="https://github.com/karthik-bha/portfolio/tree/main " target="_blank" className='block text-center text-white font-semibold p-2 hover:text-blue-600 cursor-pointer'>Portfolio source code here</a>
+  
         <Footer />
-      </div>
      
-    </>
+     
+    </div>
   )
 }
 
